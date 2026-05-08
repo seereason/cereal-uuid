@@ -27,7 +27,7 @@ import Data.Either as Exports
 import Data.Fixed as Exports
 import Data.Foldable as Exports
 import Data.Function as Exports hiding (id, (.))
-import Data.Functor as Exports
+import Data.Functor as Exports hiding (unzip)
 import Data.Functor.Identity as Exports
 import Data.Int as Exports
 import Data.IORef as Exports
@@ -56,7 +56,7 @@ import GHC.Exts as Exports (lazy, inline, sortWith, groupWith)
 import GHC.Generics as Exports (Generic)
 import GHC.IO.Exception as Exports
 import Numeric as Exports
-import Prelude as Exports hiding (concat, foldr, mapM_, sequence_, foldl1, maximum, minimum, product, sum, all, and, any, concatMap, elem, foldl, foldr1, notElem, or, mapM, sequence, id, (.))
+import Prelude as Exports hiding (concat, foldr, mapM_, sequence_, foldl1, maximum, minimum, product, sum, all, and, any, concatMap, elem, foldl, foldr1, notElem, or, mapM, sequence, id, (.), unzip)
 import System.Environment as Exports
 import System.Exit as Exports
 import System.IO as Exports
